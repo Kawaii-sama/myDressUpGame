@@ -33,6 +33,7 @@
                 text-align: center;
                 width: 100px; height: 100px;aspect-ratio: 1/1;
                 display: flex; flex-direction: column; justify-content: center; align-items: center;
+                position: relative;
             }
 
             .menu-title {
@@ -40,6 +41,12 @@
                 font-family: sans-serif;
                 margin-bottom: 5px;
                 text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            }
+
+            .play-btn {
+                width: 80px; height: 80px; aspect-ratio: 1/1; border-radius: 50%; position: absolute; top: 0; left: 50%; transform: translate(-50%, -50%);
+                
+                background: #e2d8c3; color:  #1a1a1a; font-weight: bold; border: none; cursor: pointer; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
             }
         </style>
 
